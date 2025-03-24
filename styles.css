@@ -1,0 +1,53 @@
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+}
+
+@media (max-width: 992px) { /* Tablets y pantallas medianas */
+    .carousel-inner img {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) { /* Dispositivos móviles en modo horizontal */
+    .carousel-inner img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) { /* Dispositivos móviles en modo vertical */
+    .carousel-inner img {
+        height: 250px;
+    }
+}
+
+.card{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+}
+
+.btn-primary:hover{
+    background-color: black;
+
+}
+.card-img-top {
+    width: 100%;   /* Ancho fijo */
+    height: 225px;  /* Alto fijo */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+.card-title{
+    color: rgb(0, 91, 201);
+}
+.card-text{
+    font-size: medium;
+ }
+
+ .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Cambia el color a negro */
+}
+
+
+
+  
