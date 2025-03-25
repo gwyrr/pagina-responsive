@@ -9,13 +9,13 @@
     }
 }
 
-@media (max-width: 768px) { /* Dispositivos móviles en modo horizontal */
+@media (max-width: 768px) { /*celulares en modo horizontal */
     .carousel-inner img {
         height: 300px;
     }
 }
 
-@media (max-width: 576px) { /* Dispositivos móviles en modo vertical */
+@media (max-width: 576px) { /* celulares en modo vertical */
     .carousel-inner img {
         height: 250px;
     }
