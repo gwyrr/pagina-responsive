@@ -11,11 +11,11 @@ createApp({
         ciudad: '',
         direccion: '',
         genero: '',
-        mascotas: '',
-        artistaFavorito: '',
+        vehiculod: '',
+        vehiculofavorito: '',
         intereses: []
       },
-      interesesDisponibles: ['Música', 'Deportes', 'Cine', 'Tecnología', 'Viajar']
+      interesesDisponibles: ['Alto cilindraje', 'Elegancia', 'Todoterreno', 'Deportivo', 'casual']
     }
   },
   methods: {
