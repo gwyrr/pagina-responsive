@@ -11,7 +11,7 @@ createApp({
         ciudad: '',
         direccion: '',
         genero: '',
-        vehiculod: '',
+        vehiculos: '',
         vehiculofavorito: '',
         intereses: []
       },
@@ -35,7 +35,7 @@ createApp({
       } else if (this.step === 2) {
         return this.formData.ciudad && this.formData.direccion && this.formData.genero
       } else if (this.step === 3) {
-        return this.formData.mascotas && this.formData.artistaFavorito && this.formData.intereses.length > 0
+        return this.formData.vehiculos && this.formData.vehiculoFavorito && this.formData.intereses.length > 0
       }
       return true
     }
